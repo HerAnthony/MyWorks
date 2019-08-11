@@ -50,8 +50,7 @@ nav.navbar {
 	background-image: url('../img/code-focus.png');
 	background-size: cover;
 	background-position: center;
-	height: 450px;
-	padding-top: 50px;
+	height: 300px;
 }
 .jumbotron_row h2 {
 	font-family: 'Open Sans';
@@ -59,22 +58,7 @@ nav.navbar {
 	color: #ffffff;
 }
 /* Items */
-.main_img1 {
-	background-image: url('../img/code-color.png');
-}
-.main_img2 {
-	background-image: url('../img/code-color.png');
-}
-.main_img3 {
-	background-image: url('../img/code-color.png');
-}
-.main_img4 {
-	background-image: url('../img/code-color.png');
-}
-.main_img5 {
-	background-image: url('../img/code-color.png');
-}
-.main_img6 {
+.main_img1, .main_img2, .main_img3, .main_img4, .main_img5, .main_img6 {
 	background-image: url('../img/code-color.png');
 }
 .btn-primary {
