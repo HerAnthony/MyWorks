@@ -30,10 +30,9 @@ nav.navbar {
 	height: 2em;
 }
 /* Carousel */
-/* Did not want white space under home page */
-/* .carousel {
-    margin-bottom: 60px;
-} */
+.carousel {
+    margin-bottom: 0px;
+}
 .carousel-caption {
 	z-index: 10;
     /* padding-bottom: 200px; */
@@ -44,18 +43,6 @@ nav.navbar {
 	min-height: 100vh;
 	background-size: cover;
 	background-position: center;
-}
-/* Jumbotron */
-.jumbotron_row {
-	background-image: url('../img/code-focus.png');
-	background-size: cover;
-	background-position: center;
-	height: 300px;
-}
-.jumbotron_row h2 {
-	font-family: 'Open Sans';
-	font-weight: 300;
-	color: #ffffff;
 }
 /* Items */
 .main_img1, .main_img2, .main_img3, .main_img4, .main_img5, .main_img6 {
@@ -80,14 +67,19 @@ nav.navbar {
 	font-weight: bold;
 	padding-bottom: 225px;
 }
-.fa-facebook-square {
-	color: #3b5998;
+.social {
+	padding-bottom: 25px;
 	font-size: 4em;
+}
+.fa-facebook-square {
+	color: #3C5A99;
 }
 .fa-camera {
 	color: #1c81a0;
-	font-size: 4em;
 }
-.fa-facebook-square, .fa-camera {
-	padding-bottom: 25px;
+.fa-twitter-square {
+	color: #1dcaff;
+}
+.fa-linkedin {
+	color: #0077B5;
 }

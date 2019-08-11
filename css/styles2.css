@@ -1,0 +1,51 @@
+/* Jumbotron */
+.jumbotron_row {
+	background-image: url('../img/code-focus.png');
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+}
+.jumbotron_row h2 {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	color: #ffffff;
+}
+/* Footer */
+footer {
+    background-image: url('../img/code-focus.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+	max-height: 100%;
+}
+footer a {
+	color: #ffffff;
+}
+footer img {
+	width: 10em;
+	text-align: center;
+}
+.contact_info {
+	padding-left: 40px;
+	border-right: 2px solid #000000;
+	border-left: 2px solid #000000;
+}
+.social2, .contact_info {
+	padding-top: 10px;
+	font-size-adjust: 2em;
+}
+footer, .fine_print {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	color: #ffffff;
+}
+@media(max-width: 768px) {
+	.centered {
+		float: none;
+		margin: 0 auto;
+	}
+	.social2 {
+		margin: 20px 10px 0px;
+		font-size-adjust: 2em;
+	}
+}
